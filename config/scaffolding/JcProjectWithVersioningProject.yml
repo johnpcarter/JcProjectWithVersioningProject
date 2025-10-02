@@ -2,11 +2,6 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
-- name: JcProjectWithVersioningProject
-  gitServerName: johnpcarter
-  gitUrl: https://github.com/johnpcarter
-  gitUsername: johnpcarter
-  gitBranch: 1.0.0
 - name: JcHelloWorldAPI
   version: "1.1"
   gitServerName: johnpcarter
@@ -14,6 +9,11 @@ packages:
   gitUsername: johnpcarter
   gitBranch: main
   gitTag: v1.0.0
+- name: JcProjectWithVersioningProject
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitBranch: main
 services:
 - serviceName: project.jcprojectwithversioning.integrations:SayHi
   packages:
