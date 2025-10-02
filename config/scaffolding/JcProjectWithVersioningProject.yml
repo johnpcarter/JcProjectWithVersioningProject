@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
   gitBranch: main
+services:
+- serviceName: project.jcprojectwithversioning.integrations:SayHi
+  packages:
+  - name: JcProjectWithVersioningProject
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2090
