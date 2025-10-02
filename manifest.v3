@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="JcHelloWorldAPI">1.1</value>
+    <value name="JcHelloWorldAPI">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">9</value>
+  <value name="build">10</value>
   <null name="description"/>
   <value name="created_date">02-10-2025 08:05:30 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-10-02T08:18:46.072835395Z</value>
+  <value name="lastUpdated">2025-10-02T08:19:00.05330662Z</value>
   <value name="wmProjectId">flc2072c9a1feaee6c9909e7</value>
   <value name="creator">John Carter</value>
 </Values>
