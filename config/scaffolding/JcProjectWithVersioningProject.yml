@@ -8,6 +8,7 @@ packages:
   gitUsername: johnpcarter
   gitBranch: 1.0.0
 - name: JcHelloWorldAPI
+  version: "1.1"
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
@@ -18,7 +19,21 @@ services:
   packages:
   - name: JcProjectWithVersioningProject
     version: "1.0"
+  - name: JcHelloWorldAPI
+    version: "1.1"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.1.0.0.2090
+- serviceName: jc.helloworld._priv.jdbc:logMessage
+  packages:
+  - name: JcHelloWorldAPI
+    version: "1.1"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
