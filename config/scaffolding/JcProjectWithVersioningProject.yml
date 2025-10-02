@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: JcProjectWithVersioningProject
+  gitServerName: johnpcarter
+  gitUrl: https://github.com/johnpcarter
+  gitUsername: johnpcarter
+  gitBranch: main
