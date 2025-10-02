@@ -8,18 +8,18 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="JcHelloWorldAPI">1.0</value>
+    <value name="JcHelloWorldAPI">1.1</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">6</value>
+  <value name="build">7</value>
   <null name="description"/>
   <value name="created_date">02-10-2025 08:05:30 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-10-02T08:16:19.215210173Z</value>
+  <value name="lastUpdated">2025-10-02T08:16:37.691041543Z</value>
   <value name="wmProjectId">flc2072c9a1feaee6c9909e7</value>
   <value name="creator">John Carter</value>
 </Values>

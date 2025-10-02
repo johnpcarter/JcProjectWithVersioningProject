@@ -11,6 +11,7 @@ packages:
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
+  gitBranch: main
   gitTag: v1.0.0
 services:
 - serviceName: project.jcprojectwithversioning.integrations:SayHi
